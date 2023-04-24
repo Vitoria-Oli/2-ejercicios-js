@@ -1,15 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicios de Javascript</title>
-</head>
-<body>
-    <div id="calculo de iva">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Micro ejercicios JS 2</title>
+  </head>
+  <body>
+    <form id="FormConducir">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
 
-    </div>
-    <script src="app.js"></script>
-</body>
+      <label for="edad">Edad:</label>
+      <input type="text" id="edad" name="edad" required />
+
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <div id="mensaje"></div>
+
+    <form id="FormDNI">
+      <label for="dni">Introduce tu número de DNI (sin la letra):</label>
+      <input type="text" id="dni" name="dni" required />
+
+      <input type="submit" value="Calcular" />
+    </form>
+
+    <div id="resultado"></div>
+  </body>
+  <script src="./js/ejercicio1.js"></script>
+  <script src="./js/ejercicio2.js"></script>
 </html>
